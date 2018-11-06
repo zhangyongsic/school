@@ -33,7 +33,7 @@ $(window).on('resize', function() {
 Vue.component('menuItem',menuItem);
 
 var vm = new Vue({
-	el:'#rrapp',
+	el:'#wrapper',
 	data:{
 		user:{},
 		menuList:{},
@@ -44,13 +44,12 @@ var vm = new Vue({
 	},
 	methods: {
 		getMenuList: function () {
-			$.getJSON(baseURL + "sys/menu/nav", function(r){
+			$.getJSON("assets/json/menu.json", function(r){
 				vm.menuList = r.menuList;
-                window.permissions = r.permissions;
 			});
 		},
 		getUser: function(){
-			$.getJSON(baseURL + "sys/user/info", function(r){
+			$.getJSON(httpUrl + "sys/user/info", function(r){
 				vm.user = r.user;
 			});
 		},

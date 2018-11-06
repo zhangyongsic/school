@@ -1,0 +1,110 @@
+{
+    "msg":"success",
+    "menuList":[
+        {
+            "menuId":2,
+            "parentId":1,
+            "parentName":null,
+            "name":"首页",
+            "url":"main.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-home",
+            "orderNum":1,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":3,
+            "parentId":1,
+            "parentName":null,
+            "name":"班级管理",
+            "url":"elements.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-code",
+            "orderNum":2,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":4,
+            "parentId":1,
+            "parentName":null,
+            "name":"借书管理",
+            "url":"charts.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-chart-bars",
+            "orderNum":3,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":5,
+            "parentId":1,
+            "parentName":null,
+            "name":"管理员管理",
+            "url":"panels.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-cog",
+            "orderNum":4,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":6,
+            "parentId":1,
+            "parentName":null,
+            "name":"菜单管理",
+            "url":"notifications.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-alarm",
+            "orderNum":5,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":7,
+            "parentId":1,
+            "parentName":null,
+            "name":"Tables",
+            "url":"tables.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-dice",
+            "orderNum":5,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":8,
+            "parentId":1,
+            "parentName":null,
+            "name":"Typography",
+            "url":"typography.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-text-format",
+            "orderNum":5,
+            "open":null,
+            "list":null
+        },
+        {
+            "menuId":9,
+            "parentId":1,
+            "parentName":null,
+            "name":"Icons",
+            "url":"icons.html",
+            "perms":null,
+            "type":1,
+            "icon":"lnr lnr-linearicons",
+            "orderNum":5,
+            "open":null,
+            "list":null
+        }
+    ],
+    "code":0
+}
