@@ -99,11 +99,39 @@
             "name":"Icons",
             "url":"icons.html",
             "perms":null,
-            "type":1,
+            "type":0,
             "icon":"lnr lnr-linearicons",
             "orderNum":5,
             "open":null,
-            "list":null
+            "list":[
+	            	{
+			            "menuId":7,
+			            "parentId":1,
+			            "parentName":null,
+			            "name":"Tables",
+			            "url":"tables.html",
+			            "perms":null,
+			            "type":1,
+			            "icon":"lnr lnr-dice",
+			            "orderNum":5,
+			            "open":null,
+			            "list":null
+			        },
+			        {
+			            "menuId":8,
+			            "parentId":1,
+			            "parentName":null,
+			            "name":"Typography",
+			            "url":"typography.html",
+			            "perms":null,
+			            "type":1,
+			            "icon":"lnr lnr-text-format",
+			            "orderNum":5,
+			            "open":null,
+			            "list":null
+			        }
+            	]
+            
         }
     ],
     "code":0

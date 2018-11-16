@@ -14,7 +14,7 @@ var menuItem = Vue.extend({
 				  '</ul>',
 				  '<a v-if="item.type === 1" :href="\'#\'+item.url">' +
 					  '<i v-if="item.icon != null" :class="item.icon"></i>' +
-					  '<i v-else class="fa fa-circle-o"></i> {{item.name}}' +
+					  '<i v-else class="lnr lnr-text-format"></i> {{item.name}}' +
 				  '</a>',
 	          '</li>'
 	].join('')
